@@ -1,4 +1,8 @@
-# Rabbit 专用不科学实验性超级智能超绝Super超wonderful超excellent打包工具
+# Happy Hacking
+
+[![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](http://github.com/syl20bnr/spacemacs)
+
+## Rabbit 专用不科学实验性超级智能超绝super超wonderful超excellent华丽但不实用的打包工具
 
 那么首先，什么是专用的？
 
@@ -83,27 +87,5 @@ new HappyPack({
 监听builder文件夹，发生变化后会自动重启兔builder
 
 
-## 什么，你也想试试？
+## HTML live
 
-哼，我是不会告诉你要怎么跑起来的。
-
-首先，用`git`将这个项目克隆到本地：
-
-```sh
-git clone https://github.com/yuffiy/atlantis.git
-```
-
-运行下面的命令：
-
-```sh
-npm i
-npm start
-```
-
-Browser会自动打开`localhost:8888`
-
-**Elm player** 需要有`elm 0.17`，并且在start之前安装项目所需的依赖
-
-```sh
-elm package install -y
-```
