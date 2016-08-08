@@ -56,7 +56,7 @@ u-pad-export($b = "u-pad")
     for $dir in $dirs
       $se = exceptDefaultSelector($b, $dir)
       .{$se}--{$m}
-        pad unit($val, rem)
+        u-pad($dir, unit($val, rem))
     
 
 
@@ -106,6 +106,6 @@ u-mar-export($b = "u-mar")
     for $dir in $dirs
       $se = exceptDefaultSelector($b, $dir)
       .{$se}--{$m}
-        mar unit($val, rem)
+        u-mar($dir, unit($val, rem))
     
 /// code end here.
