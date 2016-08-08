@@ -4,9 +4,13 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "0x00-pl--svg-pack-to-ttf": "0.0.15",
     "angular2": "^2.0.0-beta.17",
     "antd": "^1.0.0-beta.10",
+    "babel-preset-es2015-webpack": "^6.4.2",
+    "cli": "^0.11.3",
     "es6-shim": "^0.35.0",
+    "gulp": "github:gulpjs/gulp#4.0",
     "immutable": "^3.8.1",
     "ionicons": "^3.0.0",
     "jquery": "^3.1.0",
@@ -28,13 +32,10 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
-    "0x00-pl--avg-pack-to-ttf": "0.0.6",
     "autoprefixer": "^6.3.7",
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-flow-strip-types": "^6.8.0",
-    "babel-preset-es2015": "^6.9.0",
-    "babel-preset-es2015-webpack": "^6.4.1",
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "babel-register": "^6.9.0",
