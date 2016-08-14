@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "0x00-pl--svg-pack-to-ttf": "0.0.15",
     "angular2": "^2.0.0-beta.17",
     "antd": "^1.0.0-beta.10",
     "babel-preset-es2015-webpack": "^6.4.2",
